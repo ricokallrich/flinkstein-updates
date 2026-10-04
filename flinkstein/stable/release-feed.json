@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "channel": "stable",
+  "latest": {
+    "version": "0.2.0",
+    "date": "2026-10-04",
+    "notes": [
+      "Seiten anlegen, umbenennen und löschen, mit Meta-Beschreibung, Versionen und automatischer Weiterleitung bei neuer Adresse.",
+      "Website-Einstellungen: Name, Logo, Markenfarbe, Menü, Header-Button, Footer und SEO-Standardwerte.",
+      "Elf neue Sektionen, unter anderem Leistungen, Kundenstimmen, Galerie, Team, Preise, Kontaktformular und Video.",
+      "Kontaktformular mit Nachrichten im Admin und E-Mail-Benachrichtigung.",
+      "Mediathek mit Mehrfach-Upload, Alt-Texten, „Wo verwendet?“ und SVG-Logos.",
+      "„Passwort vergessen“ per E-Mail und Konto-Seite zum Ändern von Name und Passwort.",
+      "Vorlagen für Impressum und Datenschutzerklärung.",
+      "Sitemap, robots.txt und Meta-Angaben für Suchmaschinen und soziale Netze.",
+      "Versionsanzeige im Admin und Hinweis, wenn ein Update bereitsteht.",
+      "Größenlimit für Anfragen, fälschungssichere Besucher-Adresse für Login- und Formular-Sperren, strengere Prüfung von Links und hochgeladenen SVG-Dateien."
+    ],
+    "security": true
+  },
+  "releases": [
+    {
+      "version": "0.2.0",
+      "date": "2026-10-04",
+      "notes": [
+        "Seiten anlegen, umbenennen und löschen, mit Meta-Beschreibung, Versionen und automatischer Weiterleitung bei neuer Adresse.",
+        "Website-Einstellungen: Name, Logo, Markenfarbe, Menü, Header-Button, Footer und SEO-Standardwerte.",
+        "Elf neue Sektionen, unter anderem Leistungen, Kundenstimmen, Galerie, Team, Preise, Kontaktformular und Video.",
+        "Kontaktformular mit Nachrichten im Admin und E-Mail-Benachrichtigung.",
+        "Mediathek mit Mehrfach-Upload, Alt-Texten, „Wo verwendet?“ und SVG-Logos.",
+        "„Passwort vergessen“ per E-Mail und Konto-Seite zum Ändern von Name und Passwort.",
+        "Vorlagen für Impressum und Datenschutzerklärung.",
+        "Sitemap, robots.txt und Meta-Angaben für Suchmaschinen und soziale Netze.",
+        "Versionsanzeige im Admin und Hinweis, wenn ein Update bereitsteht.",
+        "Größenlimit für Anfragen, fälschungssichere Besucher-Adresse für Login- und Formular-Sperren, strengere Prüfung von Links und hochgeladenen SVG-Dateien."
+      ],
+      "security": true
+    },
+    {
+      "version": "0.1.0",
+      "date": "2026-10-03",
+      "notes": [
+        "Erster Prototyp: öffentliche Seiten aus der Datenbank mit Hero, Text mit Bild und FAQ.",
+        "Visueller Editor mit Live-Vorschau, Drag & Drop, Rückgängig und Veröffentlichen.",
+        "Bilder hochladen mit automatisch verkleinerten Varianten.",
+        "Ersteinrichtung mit Einrichtungscode und Login."
+      ],
+      "security": false
+    }
+  ]
+}
