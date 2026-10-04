@@ -2,23 +2,42 @@
   "schema": 1,
   "channel": "stable",
   "latest": {
-    "version": "0.2.0",
+    "version": "0.3.0",
     "date": "2026-10-04",
     "notes": [
-      "Seiten anlegen, umbenennen und löschen, mit Meta-Beschreibung, Versionen und automatischer Weiterleitung bei neuer Adresse.",
-      "Website-Einstellungen: Name, Logo, Markenfarbe, Menü, Header-Button, Footer und SEO-Standardwerte.",
-      "Elf neue Sektionen, unter anderem Leistungen, Kundenstimmen, Galerie, Team, Preise, Kontaktformular und Video.",
-      "Kontaktformular mit Nachrichten im Admin und E-Mail-Benachrichtigung.",
-      "Mediathek mit Mehrfach-Upload, Alt-Texten, „Wo verwendet?“ und SVG-Logos.",
-      "„Passwort vergessen“ per E-Mail und Konto-Seite zum Ändern von Name und Passwort.",
-      "Vorlagen für Impressum und Datenschutzerklärung.",
-      "Sitemap, robots.txt und Meta-Angaben für Suchmaschinen und soziale Netze.",
-      "Versionsanzeige im Admin und Hinweis, wenn ein Update bereitsteht.",
-      "Größenlimit für Anfragen, fälschungssichere Besucher-Adresse für Login- und Formular-Sperren, strengere Prüfung von Links und hochgeladenen SVG-Dateien."
+      "Unterseiten mit mehrstufigen Adressen wie /leistungen/webdesign, dazu eine Brotkrumen-Navigation.",
+      "Kontaktformular: optionale Felder „Unternehmen“ und „Worum geht es?“ (per Link vorbelegbar), Anordnung „Infos links, Formular rechts“ und Weiterleitung auf eine eigene Danke-Seite.",
+      "Unter Einstellungen → Formulare lässt sich wählen, ob Anfragen im CMS gespeichert oder nur per E-Mail zugestellt werden.",
+      "Gespeicherte Anfragen werden automatisch gelöscht: standardmäßig nach 6 Monaten, wählbar zwischen 1 und 24 Monaten oder nie.",
+      "Optionale automatische Eingangsbestätigung an die anfragende Person, mit eigenem Betreff und Text.",
+      "Formular-E-Mails im Design der Website, mit Buttons zum Antworten und Anrufen und der Seite, von der die Anfrage kam.",
+      "Hinweise auf neue Versionen kommen jetzt automatisch vom offiziellen Update-Server, ohne Einrichtung.",
+      "Besserer Schutz vor Spam-Robotern im Kontaktformular.",
+      "Die Test-E-Mail zeigt die Antwort des Mailservers. Ist eine geänderte Empfänger-Adresse noch nicht gespeichert, erscheint ein deutlicher Hinweis.",
+      "Aufgeklappte Listeneinträge im Editor lassen sich per Tastatur verschieben, Screenreader sagen dabei die richtige Position an.",
+      "E-Mails kamen nicht an, wenn als Absender nur ein Name eingetragen war."
     ],
-    "security": true
+    "security": false
   },
   "releases": [
+    {
+      "version": "0.3.0",
+      "date": "2026-10-04",
+      "notes": [
+        "Unterseiten mit mehrstufigen Adressen wie /leistungen/webdesign, dazu eine Brotkrumen-Navigation.",
+        "Kontaktformular: optionale Felder „Unternehmen“ und „Worum geht es?“ (per Link vorbelegbar), Anordnung „Infos links, Formular rechts“ und Weiterleitung auf eine eigene Danke-Seite.",
+        "Unter Einstellungen → Formulare lässt sich wählen, ob Anfragen im CMS gespeichert oder nur per E-Mail zugestellt werden.",
+        "Gespeicherte Anfragen werden automatisch gelöscht: standardmäßig nach 6 Monaten, wählbar zwischen 1 und 24 Monaten oder nie.",
+        "Optionale automatische Eingangsbestätigung an die anfragende Person, mit eigenem Betreff und Text.",
+        "Formular-E-Mails im Design der Website, mit Buttons zum Antworten und Anrufen und der Seite, von der die Anfrage kam.",
+        "Hinweise auf neue Versionen kommen jetzt automatisch vom offiziellen Update-Server, ohne Einrichtung.",
+        "Besserer Schutz vor Spam-Robotern im Kontaktformular.",
+        "Die Test-E-Mail zeigt die Antwort des Mailservers. Ist eine geänderte Empfänger-Adresse noch nicht gespeichert, erscheint ein deutlicher Hinweis.",
+        "Aufgeklappte Listeneinträge im Editor lassen sich per Tastatur verschieben, Screenreader sagen dabei die richtige Position an.",
+        "E-Mails kamen nicht an, wenn als Absender nur ein Name eingetragen war."
+      ],
+      "security": false
+    },
     {
       "version": "0.2.0",
       "date": "2026-10-04",
