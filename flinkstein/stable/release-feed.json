@@ -2,25 +2,24 @@
   "schema": 1,
   "channel": "stable",
   "latest": {
-    "version": "0.4.0",
-    "date": "2026-10-06",
+    "version": "0.4.1",
+    "date": "2026-10-07",
     "notes": [
-      "Neuer Abschnitt „Freies Layout“: 1 bis 4 Spalten, frei gefüllt mit Überschriften, Text, Bildern, Buttons, Aufzählungen, Symbolen, Kennzahlen, Zitaten, Abständen und Trennlinien. Auf dem Handy stehen die Spalten automatisch untereinander.",
-      "Design je Abschnitt: eigene Hintergrundfarbe (die Schrift passt sich an), Hintergrundbild mit wählbarer Abdunklung und Abstand oben/unten. Zu finden im Editor unter „Design“ bei jedem Abschnitt.",
-      "Klick zum Bearbeiten: Ein Klick auf einen Text, ein Bild oder einen Button in der Vorschau öffnet rechts genau das passende Feld, auch in Listen wie FAQ-Fragen. Fahren Sie mit der Maus darüber, wird das Feld markiert.",
-      "Weitere Benutzer per E-Mail einladen: als Admin (alles) oder Redakteur (Seiten, Medien, Nachrichten – ohne Einstellungen). Rollen lassen sich jederzeit ändern, Zugänge entfernen. Zu finden unter Einstellungen → Benutzer & Rollen.",
-      "Jede Seite kann einen eigenen Titel für Suchmaschinen bekommen, für alle übrigen gilt ein Titel-Muster wie „Seite | Firma“. Außerdem: Beschriftung der Startseite in der Brotkrumen-Navigation, ein Text für /llms.txt (Kurzinfo für KI-Suchdienste) und Sprungmarken je Abschnitt.",
-      "Kontaktformular: Sternchen an Pflichtfeldern ausblendbar („(optional)“ an den übrigen), Hinweis unter den Kontaktdaten, Text nach dem Datenschutz-Link; die Eingangsbestätigung kann das gewählte Thema nennen ({thema}).",
-      "Design „Kallrich“: Cookie-Banner (CookieYes) und Google Tag Manager lassen sich in den Design-Einstellungen hinterlegen. Geladen wird nur auf der Live-Adresse, Messungen erst nach Einwilligung. Im Footer erscheint „Cookie-Einstellungen“.",
-      "Für den Umzug bestehender Websites: Eine Test-Adresse lässt sich ganz für Suchmaschinen sperren, Weiterleitungen alter Adressen lassen sich über die Schnittstelle pflegen, und Eingangsbestätigungen können von einer eigenen Absenderadresse kommen (z. B. info@).",
-      "Die Einstellungen sind in Bereiche mit eigenem Untermenü aufgeteilt: Allgemein, Navigation, Footer, Suchmaschinen, Formulare & E-Mail und die Design-Einstellungen. Langes Scrollen entfällt.",
-      "Ein Textblock ohne eigene Überschrift nutzt für seine Zwischenüberschriften die nächste Gliederungsebene. Das ist besser für Suchmaschinen und Screenreader.",
-      "Beim Teilen in sozialen Netzwerken erscheint das Vorschaubild groß, sobald eines hinterlegt ist.",
-      "Design „Kallrich“ entspricht jetzt pixelgenau kallrich.de. Neu dafür: Abschnitt „Zwei Hälften“, Schritte-Leiste unter Karten, kleine Abschnittsüberschrift, direkt anschließende Fakten, eigener Text für den Button der mobilen Leiste und die Kontaktliste als Häkchen-Liste."
+      "Website-Symbole sind jetzt auch unter den üblichen Adressen wie /favicon.ico erreichbar, damit Browser und Lesezeichen sie immer finden.",
+      "kallrich: Button „Cookie-Einstellungen öffnen“ in der Datenschutzerklärung, wie auf kallrich.de."
     ],
     "security": false
   },
   "releases": [
+    {
+      "version": "0.4.1",
+      "date": "2026-10-07",
+      "notes": [
+        "Website-Symbole sind jetzt auch unter den üblichen Adressen wie /favicon.ico erreichbar, damit Browser und Lesezeichen sie immer finden.",
+        "kallrich: Button „Cookie-Einstellungen öffnen“ in der Datenschutzerklärung, wie auf kallrich.de."
+      ],
+      "security": false
+    },
     {
       "version": "0.4.0",
       "date": "2026-10-06",
