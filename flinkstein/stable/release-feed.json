@@ -2,20 +2,34 @@
   "schema": 1,
   "channel": "stable",
   "latest": {
-    "version": "0.5.0",
-    "date": "2026-10-08",
+    "version": "0.6.0",
+    "date": "2026-10-09",
     "notes": [
-      "Seiten duplizieren: Ein Klick auf das Kopieren-Symbol in der Seitenübersicht legt eine Kopie mit allen Abschnitten als Entwurf an. Titel und Adresse lassen sich direkt danach anpassen – praktisch für ähnliche Seiten wie weitere Leistungen.",
-      "Mediathek: Der Filter „Nicht verwendet“ zeigt Bilder, die auf keiner Seite und in keiner Einstellung vorkommen. So lässt sich die Mediathek leichter aufräumen.",
-      "Änderungen verwerfen: Im Editor setzt „Verwerfen“ den Entwurf auf die veröffentlichte Fassung zurück. Direkt danach holt Strg+Z die Änderungen zurück.",
-      "Die Adresse mit „www.“ leitet automatisch auf die Haupt-Adresse der Website weiter (oder umgekehrt, je nach eingerichteter Adresse). Suchmaschinen sehen so nur noch eine Form.",
-      "Websites laden schneller: Das Design steckt jetzt direkt in der Seite statt in einer eigenen Datei, und es enthält nur noch, was die Website wirklich braucht (bis zu 40 % kleiner).",
-      "Wird eine noch nie veröffentlichte Seite umbenannt, entsteht keine unnötige Weiterleitung von ihrer alten Adresse mehr.",
-      "In der Seitenübersicht standen Seiten auf „Unveröffentlichte Änderungen“, obwohl nur unverändert gespeichert wurde (z. B. nach einem erneuten Import). Angezeigt wird der Hinweis jetzt nur noch bei echten Unterschieden."
+      "Defekte Links finden: Die Seitenübersicht zeigt Links, die auf eine gelöschte oder noch nicht veröffentlichte Seite zeigen – in Seiten, Menü, Footer und Design-Einstellungen. „Bearbeiten“ springt direkt zur betroffenen Stelle im Editor.",
+      "SEO-Check je Seite: Eine Ampel in der Seitenübersicht zeigt, was für Suchmaschinen fehlt – Hauptüberschrift, Meta-Beschreibung, zu langer Titel, Bilder ohne Alt-Text. Ein Klick führt direkt zur passenden Einstellung oder Stelle im Editor.",
+      "404-Protokoll: Unter Einstellungen → „Weiterleitungen & 404“ stehen Adressen, die Besucher nicht gefunden haben, mit Anzahl der Aufrufe. Ein Klick leitet sie auf die passende Seite weiter – ideal nach einem Umzug. Gespeichert werden nur Adresse, Anzahl und Zeitpunkt.",
+      "Weiterleitungen lassen sich jetzt auch von Hand anlegen und wieder entfernen.",
+      "Versionen vergleichen: Unter „Versionen“ zeigt „Vergleichen“, welche Abschnitte und Felder sich gegenüber dem aktuellen Entwurf oder der vorherigen Version geändert haben – bevor Sie eine Version wiederherstellen.",
+      "Veröffentlichung planen: Eine Seite lässt sich für einen festen Zeitpunkt zur Veröffentlichung vormerken, etwa für eine Aktion ab Montag 8 Uhr. Der Plan ist im Editor und in der Seitenübersicht sichtbar und jederzeit änderbar.",
+      "Aktivitätsprotokoll: Unter Einstellungen → „Aktivität“ sehen Administratoren, wer wann Seiten, Bilder, Einstellungen oder Benutzer geändert hat. Gespeichert werden keine Inhalte und keine IP-Adressen."
     ],
     "security": false
   },
   "releases": [
+    {
+      "version": "0.6.0",
+      "date": "2026-10-09",
+      "notes": [
+        "Defekte Links finden: Die Seitenübersicht zeigt Links, die auf eine gelöschte oder noch nicht veröffentlichte Seite zeigen – in Seiten, Menü, Footer und Design-Einstellungen. „Bearbeiten“ springt direkt zur betroffenen Stelle im Editor.",
+        "SEO-Check je Seite: Eine Ampel in der Seitenübersicht zeigt, was für Suchmaschinen fehlt – Hauptüberschrift, Meta-Beschreibung, zu langer Titel, Bilder ohne Alt-Text. Ein Klick führt direkt zur passenden Einstellung oder Stelle im Editor.",
+        "404-Protokoll: Unter Einstellungen → „Weiterleitungen & 404“ stehen Adressen, die Besucher nicht gefunden haben, mit Anzahl der Aufrufe. Ein Klick leitet sie auf die passende Seite weiter – ideal nach einem Umzug. Gespeichert werden nur Adresse, Anzahl und Zeitpunkt.",
+        "Weiterleitungen lassen sich jetzt auch von Hand anlegen und wieder entfernen.",
+        "Versionen vergleichen: Unter „Versionen“ zeigt „Vergleichen“, welche Abschnitte und Felder sich gegenüber dem aktuellen Entwurf oder der vorherigen Version geändert haben – bevor Sie eine Version wiederherstellen.",
+        "Veröffentlichung planen: Eine Seite lässt sich für einen festen Zeitpunkt zur Veröffentlichung vormerken, etwa für eine Aktion ab Montag 8 Uhr. Der Plan ist im Editor und in der Seitenübersicht sichtbar und jederzeit änderbar.",
+        "Aktivitätsprotokoll: Unter Einstellungen → „Aktivität“ sehen Administratoren, wer wann Seiten, Bilder, Einstellungen oder Benutzer geändert hat. Gespeichert werden keine Inhalte und keine IP-Adressen."
+      ],
+      "security": false
+    },
     {
       "version": "0.5.0",
       "date": "2026-10-08",
