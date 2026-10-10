@@ -2,20 +2,22 @@
   "schema": 1,
   "channel": "stable",
   "latest": {
-    "version": "0.6.0",
-    "date": "2026-10-09",
+    "version": "0.6.1",
+    "date": "2026-10-10",
     "notes": [
-      "Defekte Links finden: Die Seitenübersicht zeigt Links, die auf eine gelöschte oder noch nicht veröffentlichte Seite zeigen – in Seiten, Menü, Footer und Design-Einstellungen. „Bearbeiten“ springt direkt zur betroffenen Stelle im Editor.",
-      "SEO-Check je Seite: Eine Ampel in der Seitenübersicht zeigt, was für Suchmaschinen fehlt – Hauptüberschrift, Meta-Beschreibung, zu langer Titel, Bilder ohne Alt-Text. Ein Klick führt direkt zur passenden Einstellung oder Stelle im Editor.",
-      "404-Protokoll: Unter Einstellungen → „Weiterleitungen & 404“ stehen Adressen, die Besucher nicht gefunden haben, mit Anzahl der Aufrufe. Ein Klick leitet sie auf die passende Seite weiter – ideal nach einem Umzug. Gespeichert werden nur Adresse, Anzahl und Zeitpunkt.",
-      "Weiterleitungen lassen sich jetzt auch von Hand anlegen und wieder entfernen.",
-      "Versionen vergleichen: Unter „Versionen“ zeigt „Vergleichen“, welche Abschnitte und Felder sich gegenüber dem aktuellen Entwurf oder der vorherigen Version geändert haben – bevor Sie eine Version wiederherstellen.",
-      "Veröffentlichung planen: Eine Seite lässt sich für einen festen Zeitpunkt zur Veröffentlichung vormerken, etwa für eine Aktion ab Montag 8 Uhr. Der Plan ist im Editor und in der Seitenübersicht sichtbar und jederzeit änderbar.",
-      "Aktivitätsprotokoll: Unter Einstellungen → „Aktivität“ sehen Administratoren, wer wann Seiten, Bilder, Einstellungen oder Benutzer geändert hat. Gespeichert werden keine Inhalte und keine IP-Adressen."
+      "Updates werden jetzt vor dem Einspielen automatisch getestet und danach auf der Website geprüft. Zeigt sich ein Problem, wird die Website automatisch auf den vorherigen Stand zurückgesetzt."
     ],
     "security": false
   },
   "releases": [
+    {
+      "version": "0.6.1",
+      "date": "2026-10-10",
+      "notes": [
+        "Updates werden jetzt vor dem Einspielen automatisch getestet und danach auf der Website geprüft. Zeigt sich ein Problem, wird die Website automatisch auf den vorherigen Stand zurückgesetzt."
+      ],
+      "security": false
+    },
     {
       "version": "0.6.0",
       "date": "2026-10-09",
