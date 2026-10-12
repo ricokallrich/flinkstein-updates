@@ -2,14 +2,24 @@
   "schema": 1,
   "channel": "stable",
   "latest": {
-    "version": "0.6.1",
-    "date": "2026-10-10",
+    "version": "0.6.2",
+    "date": "2026-10-11",
     "notes": [
-      "Updates werden jetzt vor dem Einspielen automatisch getestet und danach auf der Website geprüft. Zeigt sich ein Problem, wird die Website automatisch auf den vorherigen Stand zurückgesetzt."
+      "Nachrichten exportieren: Unter „Nachrichten“ lädt „Als CSV exportieren“ alle gespeicherten Anfragen als Tabelle herunter – zum Öffnen in Excel oder zur Übernahme in ein CRM. Der Export erscheint im Aktivitätsprotokoll.",
+      "Sicherung herunterladen: Unter Einstellungen → „Sicherung“ laden Administratoren eine Datei mit allen Seiten, Versionen und Einstellungen herunter – zum Aufbewahren unabhängig vom Hosting. Benutzer, Passwörter und Nachrichten sind nicht enthalten."
     ],
     "security": false
   },
   "releases": [
+    {
+      "version": "0.6.2",
+      "date": "2026-10-11",
+      "notes": [
+        "Nachrichten exportieren: Unter „Nachrichten“ lädt „Als CSV exportieren“ alle gespeicherten Anfragen als Tabelle herunter – zum Öffnen in Excel oder zur Übernahme in ein CRM. Der Export erscheint im Aktivitätsprotokoll.",
+        "Sicherung herunterladen: Unter Einstellungen → „Sicherung“ laden Administratoren eine Datei mit allen Seiten, Versionen und Einstellungen herunter – zum Aufbewahren unabhängig vom Hosting. Benutzer, Passwörter und Nachrichten sind nicht enthalten."
+      ],
+      "security": false
+    },
     {
       "version": "0.6.1",
       "date": "2026-10-10",
