@@ -2,15 +2,22 @@
   "schema": 1,
   "channel": "stable",
   "latest": {
-    "version": "0.6.2",
-    "date": "2026-10-11",
+    "version": "0.6.3",
+    "date": "2026-10-12",
     "notes": [
-      "Nachrichten exportieren: Unter „Nachrichten“ lädt „Als CSV exportieren“ alle gespeicherten Anfragen als Tabelle herunter – zum Öffnen in Excel oder zur Übernahme in ein CRM. Der Export erscheint im Aktivitätsprotokoll.",
-      "Sicherung herunterladen: Unter Einstellungen → „Sicherung“ laden Administratoren eine Datei mit allen Seiten, Versionen und Einstellungen herunter – zum Aufbewahren unabhängig vom Hosting. Benutzer, Passwörter und Nachrichten sind nicht enthalten."
+      "Sicherung wiederherstellen: Unter Einstellungen → Sicherung lässt sich eine heruntergeladene Sicherung wieder einspielen. Vorher zeigt eine Vorschau, welche Seiten sich ändern, wiederkommen oder gelöscht würden; der aktuelle Stand wird automatisch gesichert."
     ],
     "security": false
   },
   "releases": [
+    {
+      "version": "0.6.3",
+      "date": "2026-10-12",
+      "notes": [
+        "Sicherung wiederherstellen: Unter Einstellungen → Sicherung lässt sich eine heruntergeladene Sicherung wieder einspielen. Vorher zeigt eine Vorschau, welche Seiten sich ändern, wiederkommen oder gelöscht würden; der aktuelle Stand wird automatisch gesichert."
+      ],
+      "security": false
+    },
     {
       "version": "0.6.2",
       "date": "2026-10-11",
