@@ -2,14 +2,24 @@
   "schema": 1,
   "channel": "stable",
   "latest": {
-    "version": "0.6.4",
+    "version": "0.6.5",
     "date": "2026-10-14",
     "notes": [
-      "Seiten-Vorlagen: Beim Anlegen einer neuen Seite lässt sich ein fertiger Aufbau wählen, z. B. „Leistungsseite“ oder „Kontaktseite“. Die Seite startet dann mit passenden Abschnitten und Beispieltexten zum Ersetzen – oder wie bisher leer."
+      "Bessere Lesbarkeit: Texte in Abschnitten mit der Markenfarbe als Hintergrund erscheinen jetzt in voller Deckkraft und erfüllen damit den Mindestkontrast für Barrierefreiheit (WCAG AA).",
+      "Bedarfs-Auswahl: Die Überschriften-Reihenfolge stimmt jetzt auch in der Reiter-Ansicht – wichtig für Screenreader."
     ],
     "security": false
   },
   "releases": [
+    {
+      "version": "0.6.5",
+      "date": "2026-10-14",
+      "notes": [
+        "Bessere Lesbarkeit: Texte in Abschnitten mit der Markenfarbe als Hintergrund erscheinen jetzt in voller Deckkraft und erfüllen damit den Mindestkontrast für Barrierefreiheit (WCAG AA).",
+        "Bedarfs-Auswahl: Die Überschriften-Reihenfolge stimmt jetzt auch in der Reiter-Ansicht – wichtig für Screenreader."
+      ],
+      "security": false
+    },
     {
       "version": "0.6.4",
       "date": "2026-10-14",
