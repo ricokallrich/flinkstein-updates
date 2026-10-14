@@ -2,14 +2,22 @@
   "schema": 1,
   "channel": "stable",
   "latest": {
-    "version": "0.6.3",
-    "date": "2026-10-12",
+    "version": "0.6.4",
+    "date": "2026-10-14",
     "notes": [
-      "Sicherung wiederherstellen: Unter Einstellungen → Sicherung lässt sich eine heruntergeladene Sicherung wieder einspielen. Vorher zeigt eine Vorschau, welche Seiten sich ändern, wiederkommen oder gelöscht würden; der aktuelle Stand wird automatisch gesichert."
+      "Seiten-Vorlagen: Beim Anlegen einer neuen Seite lässt sich ein fertiger Aufbau wählen, z. B. „Leistungsseite“ oder „Kontaktseite“. Die Seite startet dann mit passenden Abschnitten und Beispieltexten zum Ersetzen – oder wie bisher leer."
     ],
     "security": false
   },
   "releases": [
+    {
+      "version": "0.6.4",
+      "date": "2026-10-14",
+      "notes": [
+        "Seiten-Vorlagen: Beim Anlegen einer neuen Seite lässt sich ein fertiger Aufbau wählen, z. B. „Leistungsseite“ oder „Kontaktseite“. Die Seite startet dann mit passenden Abschnitten und Beispieltexten zum Ersetzen – oder wie bisher leer."
+      ],
+      "security": false
+    },
     {
       "version": "0.6.3",
       "date": "2026-10-12",
