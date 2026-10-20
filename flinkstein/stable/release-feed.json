@@ -2,15 +2,30 @@
   "schema": 1,
   "channel": "stable",
   "latest": {
-    "version": "0.6.5",
-    "date": "2026-10-14",
+    "version": "0.6.6",
+    "date": "2026-10-20",
     "notes": [
-      "Bessere Lesbarkeit: Texte in Abschnitten mit der Markenfarbe als Hintergrund erscheinen jetzt in voller Deckkraft und erfüllen damit den Mindestkontrast für Barrierefreiheit (WCAG AA).",
-      "Bedarfs-Auswahl: Die Überschriften-Reihenfolge stimmt jetzt auch in der Reiter-Ansicht – wichtig für Screenreader."
+      "Neuer Abschnitt „Preisstufen“ (Design kallrich): bis zu vier Pakete mit Preis, Liste „Enthalten“/„Nicht enthalten“ und einer hervorgehobenen Empfehlung.",
+      "Design-Optionen jetzt auch für alle Abschnitte der Theme kallrich: eigene Hintergrundfarbe, Hintergrundbild und Abstände oben/unten. Ohne Änderung bleibt alles wie bisher.",
+      "Freies Layout: Elemente lassen sich per Knopf in eine andere Spalte verschieben.",
+      "Neue Seitenadresse: Links in den Design-Einstellungen (z. B. Aufklappmenü, Footer-Spalte „Unternehmen“) und die Liste „CTA-Leiste ausblenden auf“ werden jetzt automatisch mit umgestellt.",
+      "Zwei optionale Link-Felder fehlten im Editor (Button der Preisstufen, Link über der Häkchen-Liste) und lassen sich jetzt bearbeiten."
     ],
     "security": false
   },
   "releases": [
+    {
+      "version": "0.6.6",
+      "date": "2026-10-20",
+      "notes": [
+        "Neuer Abschnitt „Preisstufen“ (Design kallrich): bis zu vier Pakete mit Preis, Liste „Enthalten“/„Nicht enthalten“ und einer hervorgehobenen Empfehlung.",
+        "Design-Optionen jetzt auch für alle Abschnitte der Theme kallrich: eigene Hintergrundfarbe, Hintergrundbild und Abstände oben/unten. Ohne Änderung bleibt alles wie bisher.",
+        "Freies Layout: Elemente lassen sich per Knopf in eine andere Spalte verschieben.",
+        "Neue Seitenadresse: Links in den Design-Einstellungen (z. B. Aufklappmenü, Footer-Spalte „Unternehmen“) und die Liste „CTA-Leiste ausblenden auf“ werden jetzt automatisch mit umgestellt.",
+        "Zwei optionale Link-Felder fehlten im Editor (Button der Preisstufen, Link über der Häkchen-Liste) und lassen sich jetzt bearbeiten."
+      ],
+      "security": false
+    },
     {
       "version": "0.6.5",
       "date": "2026-10-14",
