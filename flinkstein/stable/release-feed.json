@@ -2,14 +2,22 @@
   "schema": 1,
   "channel": "stable",
   "latest": {
-    "version": "0.6.7",
-    "date": "2026-10-20",
+    "version": "0.6.8",
+    "date": "2026-10-21",
     "notes": [
-      "Ein mitgeliefertes Programmpaket wurde auf eine sichere Version aktualisiert (vom Hosting-Sicherheits-Scan gemeldet). Für Ihre Website und Ihre Daten bestand nach unserer Prüfung keine Gefahr."
+      "Ein Werkzeug, das beim Erstellen der Website verwendet wird, wurde auf eine sichere Version aktualisiert (vom Hosting-Sicherheits-Scan gemeldet). Für Ihre Website und Ihre Daten bestand nach unserer Prüfung keine Gefahr."
     ],
     "security": true
   },
   "releases": [
+    {
+      "version": "0.6.8",
+      "date": "2026-10-21",
+      "notes": [
+        "Ein Werkzeug, das beim Erstellen der Website verwendet wird, wurde auf eine sichere Version aktualisiert (vom Hosting-Sicherheits-Scan gemeldet). Für Ihre Website und Ihre Daten bestand nach unserer Prüfung keine Gefahr."
+      ],
+      "security": true
+    },
     {
       "version": "0.6.7",
       "date": "2026-10-20",
