@@ -2,14 +2,26 @@
   "schema": 1,
   "channel": "stable",
   "latest": {
-    "version": "0.6.8",
-    "date": "2026-10-21",
+    "version": "0.6.9",
+    "date": "2026-10-23",
     "notes": [
-      "Ein Werkzeug, das beim Erstellen der Website verwendet wird, wurde auf eine sichere Version aktualisiert (vom Hosting-Sicherheits-Scan gemeldet). Für Ihre Website und Ihre Daten bestand nach unserer Prüfung keine Gefahr."
+      "Ein Programmpaket zur Prüfung von Eingaben wurde auf eine sichere Version aktualisiert (vom Hosting-Sicherheits-Scan gemeldet). Für Ihre Daten bestand keine Gefahr; die Lücke hätte die Website höchstens kurz neu starten lassen können.",
+      "Die Website sendet jetzt zusätzliche Schutz-Einstellungen an den Browser: nur noch verschlüsselte Verbindungen, kein Einbetten in fremde Seiten und weniger Angaben an verlinkte Websites.",
+      "Die Systemübersicht meldet jetzt auch die Version der Server-Laufzeit, damit Sicherheitsupdates des Hosters leichter zu prüfen sind."
     ],
     "security": true
   },
   "releases": [
+    {
+      "version": "0.6.9",
+      "date": "2026-10-23",
+      "notes": [
+        "Ein Programmpaket zur Prüfung von Eingaben wurde auf eine sichere Version aktualisiert (vom Hosting-Sicherheits-Scan gemeldet). Für Ihre Daten bestand keine Gefahr; die Lücke hätte die Website höchstens kurz neu starten lassen können.",
+        "Die Website sendet jetzt zusätzliche Schutz-Einstellungen an den Browser: nur noch verschlüsselte Verbindungen, kein Einbetten in fremde Seiten und weniger Angaben an verlinkte Websites.",
+        "Die Systemübersicht meldet jetzt auch die Version der Server-Laufzeit, damit Sicherheitsupdates des Hosters leichter zu prüfen sind."
+      ],
+      "security": true
+    },
     {
       "version": "0.6.8",
       "date": "2026-10-21",
