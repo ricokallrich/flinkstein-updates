@@ -2,16 +2,24 @@
   "schema": 1,
   "channel": "stable",
   "latest": {
-    "version": "0.6.9",
-    "date": "2026-10-23",
+    "version": "0.6.10",
+    "date": "2026-10-24",
     "notes": [
-      "Ein Programmpaket zur Prüfung von Eingaben wurde auf eine sichere Version aktualisiert (vom Hosting-Sicherheits-Scan gemeldet). Für Ihre Daten bestand keine Gefahr; die Lücke hätte die Website höchstens kurz neu starten lassen können.",
-      "Die Website sendet jetzt zusätzliche Schutz-Einstellungen an den Browser: nur noch verschlüsselte Verbindungen, kein Einbetten in fremde Seiten und weniger Angaben an verlinkte Websites.",
-      "Die Systemübersicht meldet jetzt auch die Version der Server-Laufzeit, damit Sicherheitsupdates des Hosters leichter zu prüfen sind."
+      "Das Programmpaket für den E-Mail-Versand wurde auf eine sichere Version aktualisiert (vom Hosting-Sicherheits-Scan gemeldet). Nach unserer Prüfung war die Lücke bei Ihrer Website nicht ausnutzbar, weil E-Mail-Adressen schon vorher streng geprüft werden.",
+      "Zwei Werkzeuge, die nur beim Erstellen der Website verwendet werden, wurden ebenfalls auf sichere Versionen aktualisiert."
     ],
     "security": true
   },
   "releases": [
+    {
+      "version": "0.6.10",
+      "date": "2026-10-24",
+      "notes": [
+        "Das Programmpaket für den E-Mail-Versand wurde auf eine sichere Version aktualisiert (vom Hosting-Sicherheits-Scan gemeldet). Nach unserer Prüfung war die Lücke bei Ihrer Website nicht ausnutzbar, weil E-Mail-Adressen schon vorher streng geprüft werden.",
+        "Zwei Werkzeuge, die nur beim Erstellen der Website verwendet werden, wurden ebenfalls auf sichere Versionen aktualisiert."
+      ],
+      "security": true
+    },
     {
       "version": "0.6.9",
       "date": "2026-10-23",
