@@ -2,15 +2,28 @@
   "schema": 1,
   "channel": "stable",
   "latest": {
-    "version": "0.6.10",
-    "date": "2026-10-24",
+    "version": "0.7.0",
+    "date": "2026-10-26",
     "notes": [
-      "Das Programmpaket für den E-Mail-Versand wurde auf eine sichere Version aktualisiert (vom Hosting-Sicherheits-Scan gemeldet). Nach unserer Prüfung war die Lücke bei Ihrer Website nicht ausnutzbar, weil E-Mail-Adressen schon vorher streng geprüft werden.",
-      "Zwei Werkzeuge, die nur beim Erstellen der Website verwendet werden, wurden ebenfalls auf sichere Versionen aktualisiert."
+      "Zwei-Faktor-Anmeldung (freiwillig): Unter Konto lässt sich zusätzlich zum Passwort ein Code aus einer Authenticator-App einschalten. Die Einrichtung läuft über einen QR-Code, dazu gibt es Wiederherstellungscodes für den Notfall. Vertrauenswürdige Geräte fragen 30 Tage lang nicht erneut.",
+      "Administratoren können die Zwei-Faktor-Anmeldung anderer Benutzer zurücksetzen, etwa wenn ein Handy verloren gegangen ist.",
+      "Ihre Website kann ihren technischen Zustand an Ihre Agentur melden (Version, Erreichbarkeit, Anzahl der Seiten). Inhalte, E-Mail-Adressen und Benutzer werden dabei nie übertragen.",
+      "Für neue Websites: Eine fertig gestaltete Website lässt sich als Paket in eine leere Installation übernehmen (Einstellungen → Daten → ZIP-Import)."
     ],
-    "security": true
+    "security": false
   },
   "releases": [
+    {
+      "version": "0.7.0",
+      "date": "2026-10-26",
+      "notes": [
+        "Zwei-Faktor-Anmeldung (freiwillig): Unter Konto lässt sich zusätzlich zum Passwort ein Code aus einer Authenticator-App einschalten. Die Einrichtung läuft über einen QR-Code, dazu gibt es Wiederherstellungscodes für den Notfall. Vertrauenswürdige Geräte fragen 30 Tage lang nicht erneut.",
+        "Administratoren können die Zwei-Faktor-Anmeldung anderer Benutzer zurücksetzen, etwa wenn ein Handy verloren gegangen ist.",
+        "Ihre Website kann ihren technischen Zustand an Ihre Agentur melden (Version, Erreichbarkeit, Anzahl der Seiten). Inhalte, E-Mail-Adressen und Benutzer werden dabei nie übertragen.",
+        "Für neue Websites: Eine fertig gestaltete Website lässt sich als Paket in eine leere Installation übernehmen (Einstellungen → Daten → ZIP-Import)."
+      ],
+      "security": false
+    },
     {
       "version": "0.6.10",
       "date": "2026-10-24",
