@@ -2,17 +2,22 @@
   "schema": 1,
   "channel": "stable",
   "latest": {
-    "version": "0.7.0",
+    "version": "0.7.1",
     "date": "2026-10-26",
     "notes": [
-      "Zwei-Faktor-Anmeldung (freiwillig): Unter Konto lässt sich zusätzlich zum Passwort ein Code aus einer Authenticator-App einschalten. Die Einrichtung läuft über einen QR-Code, dazu gibt es Wiederherstellungscodes für den Notfall. Vertrauenswürdige Geräte fragen 30 Tage lang nicht erneut.",
-      "Administratoren können die Zwei-Faktor-Anmeldung anderer Benutzer zurücksetzen, etwa wenn ein Handy verloren gegangen ist.",
-      "Ihre Website kann ihren technischen Zustand an Ihre Agentur melden (Version, Erreichbarkeit, Anzahl der Seiten). Inhalte, E-Mail-Adressen und Benutzer werden dabei nie übertragen.",
-      "Für neue Websites: Eine fertig gestaltete Website lässt sich als Paket in eine leere Installation übernehmen (Einstellungen → Daten → ZIP-Import)."
+      "Klicks auf externe Links in der Fußzeile, etwa zum Website-Check, werden jetzt wie Buttons gemessen."
     ],
     "security": false
   },
   "releases": [
+    {
+      "version": "0.7.1",
+      "date": "2026-10-26",
+      "notes": [
+        "Klicks auf externe Links in der Fußzeile, etwa zum Website-Check, werden jetzt wie Buttons gemessen."
+      ],
+      "security": false
+    },
     {
       "version": "0.7.0",
       "date": "2026-10-26",
