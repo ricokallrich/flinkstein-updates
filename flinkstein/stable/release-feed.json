@@ -2,14 +2,24 @@
   "schema": 1,
   "channel": "stable",
   "latest": {
-    "version": "0.7.1",
-    "date": "2026-10-26",
+    "version": "0.7.2",
+    "date": "2026-10-28",
     "notes": [
-      "Klicks auf externe Links in der Fußzeile, etwa zum Website-Check, werden jetzt wie Buttons gemessen."
+      "PDF-Dokumente in der Mediathek: Preislisten, Flyer oder Datenblätter (bis 15 MB) hochladen und verlinken. Im Editor wählen Sie das Dokument über den Knopf „Datei“ am Link-Feld aus; Besucher sehen das PDF direkt im Browser.",
+      "Ein verlinktes Dokument lässt sich nicht versehentlich löschen, und Links auf gelöschte Dokumente zeigt die Link-Prüfung in der Seitenübersicht an."
     ],
     "security": false
   },
   "releases": [
+    {
+      "version": "0.7.2",
+      "date": "2026-10-28",
+      "notes": [
+        "PDF-Dokumente in der Mediathek: Preislisten, Flyer oder Datenblätter (bis 15 MB) hochladen und verlinken. Im Editor wählen Sie das Dokument über den Knopf „Datei“ am Link-Feld aus; Besucher sehen das PDF direkt im Browser.",
+        "Ein verlinktes Dokument lässt sich nicht versehentlich löschen, und Links auf gelöschte Dokumente zeigt die Link-Prüfung in der Seitenübersicht an."
+      ],
+      "security": false
+    },
     {
       "version": "0.7.1",
       "date": "2026-10-26",
