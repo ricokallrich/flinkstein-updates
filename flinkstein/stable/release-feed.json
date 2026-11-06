@@ -2,15 +2,26 @@
   "schema": 1,
   "channel": "stable",
   "latest": {
-    "version": "0.7.2",
-    "date": "2026-10-28",
+    "version": "0.7.3",
+    "date": "2026-11-06",
     "notes": [
-      "PDF-Dokumente in der Mediathek: Preislisten, Flyer oder Datenblätter (bis 15 MB) hochladen und verlinken. Im Editor wählen Sie das Dokument über den Knopf „Datei“ am Link-Feld aus; Besucher sehen das PDF direkt im Browser.",
-      "Ein verlinktes Dokument lässt sich nicht versehentlich löschen, und Links auf gelöschte Dokumente zeigt die Link-Prüfung in der Seitenübersicht an."
+      "Für den Umzug bestehender Websites: Weiterleitungen gibt es jetzt auch für alte Adressen mit der Endung .html (z. B. /leistungen.html → /leistungen). Unbekannte .html-Adressen erscheinen unter „Weiterleitungen & 404“ und lassen sich dort direkt weiterleiten.",
+      "Adressen wie /kontakt.html zeigten bisher dieselbe Seite wie /kontakt unter einer zweiten Adresse. Jetzt leiten sie dauerhaft auf die richtige Adresse weiter, Suchmaschinen sehen so keinen doppelten Inhalt mehr.",
+      "Website-Übernahme per ZIP: Das Standard-Vorschaubild für soziale Netzwerke wird jetzt auch erkannt, wenn es als Dateipfad angegeben ist."
     ],
     "security": false
   },
   "releases": [
+    {
+      "version": "0.7.3",
+      "date": "2026-11-06",
+      "notes": [
+        "Für den Umzug bestehender Websites: Weiterleitungen gibt es jetzt auch für alte Adressen mit der Endung .html (z. B. /leistungen.html → /leistungen). Unbekannte .html-Adressen erscheinen unter „Weiterleitungen & 404“ und lassen sich dort direkt weiterleiten.",
+        "Adressen wie /kontakt.html zeigten bisher dieselbe Seite wie /kontakt unter einer zweiten Adresse. Jetzt leiten sie dauerhaft auf die richtige Adresse weiter, Suchmaschinen sehen so keinen doppelten Inhalt mehr.",
+        "Website-Übernahme per ZIP: Das Standard-Vorschaubild für soziale Netzwerke wird jetzt auch erkannt, wenn es als Dateipfad angegeben ist."
+      ],
+      "security": false
+    },
     {
       "version": "0.7.2",
       "date": "2026-10-28",
