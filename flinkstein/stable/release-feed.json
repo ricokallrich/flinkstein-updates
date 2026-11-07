@@ -2,16 +2,22 @@
   "schema": 1,
   "channel": "stable",
   "latest": {
-    "version": "0.7.3",
-    "date": "2026-11-06",
+    "version": "0.7.4",
+    "date": "2026-11-07",
     "notes": [
-      "Für den Umzug bestehender Websites: Weiterleitungen gibt es jetzt auch für alte Adressen mit der Endung .html (z. B. /leistungen.html → /leistungen). Unbekannte .html-Adressen erscheinen unter „Weiterleitungen & 404“ und lassen sich dort direkt weiterleiten.",
-      "Adressen wie /kontakt.html zeigten bisher dieselbe Seite wie /kontakt unter einer zweiten Adresse. Jetzt leiten sie dauerhaft auf die richtige Adresse weiter, Suchmaschinen sehen so keinen doppelten Inhalt mehr.",
-      "Website-Übernahme per ZIP: Das Standard-Vorschaubild für soziale Netzwerke wird jetzt auch erkannt, wenn es als Dateipfad angegeben ist."
+      "Design kallrich: Ratgeber-Artikel können im Seitenkopf Autor und Datum zeigen („Von … · Veröffentlicht am …“). Suchmaschinen erkennen die Seite dann als Artikel mit Autor und Datum."
     ],
     "security": false
   },
   "releases": [
+    {
+      "version": "0.7.4",
+      "date": "2026-11-07",
+      "notes": [
+        "Design kallrich: Ratgeber-Artikel können im Seitenkopf Autor und Datum zeigen („Von … · Veröffentlicht am …“). Suchmaschinen erkennen die Seite dann als Artikel mit Autor und Datum."
+      ],
+      "security": false
+    },
     {
       "version": "0.7.3",
       "date": "2026-11-06",
