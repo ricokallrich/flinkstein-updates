@@ -2,14 +2,26 @@
   "schema": 1,
   "channel": "stable",
   "latest": {
-    "version": "0.7.4",
-    "date": "2026-11-07",
+    "version": "0.7.5",
+    "date": "2026-11-11",
     "notes": [
-      "Design kallrich: Ratgeber-Artikel können im Seitenkopf Autor und Datum zeigen („Von … · Veröffentlicht am …“). Suchmaschinen erkennen die Seite dann als Artikel mit Autor und Datum."
+      "Wartungsmodus und „Bald online“: Unter Einstellungen → Wartungsmodus lässt sich die Website für Besucher ausblenden. Sie sehen dann eine gestaltete Seite im Design der Website, auf Wunsch mit Countdown oder voraussichtlichem Ende und Kontakt-Knöpfen. Angemeldete sehen weiter die echte Website.",
+      "Suchmaschinen erfahren im Wartungsmodus, dass die Website nur vorübergehend nicht erreichbar ist. Bestehende Einträge bleiben so erhalten.",
+      "Für den Umzug bestehender Websites: Weiterleitungen gibt es jetzt auch für alte Adressen mit der Endung .php (z. B. /kontakt.php → /kontakt)."
     ],
     "security": false
   },
   "releases": [
+    {
+      "version": "0.7.5",
+      "date": "2026-11-11",
+      "notes": [
+        "Wartungsmodus und „Bald online“: Unter Einstellungen → Wartungsmodus lässt sich die Website für Besucher ausblenden. Sie sehen dann eine gestaltete Seite im Design der Website, auf Wunsch mit Countdown oder voraussichtlichem Ende und Kontakt-Knöpfen. Angemeldete sehen weiter die echte Website.",
+        "Suchmaschinen erfahren im Wartungsmodus, dass die Website nur vorübergehend nicht erreichbar ist. Bestehende Einträge bleiben so erhalten.",
+        "Für den Umzug bestehender Websites: Weiterleitungen gibt es jetzt auch für alte Adressen mit der Endung .php (z. B. /kontakt.php → /kontakt)."
+      ],
+      "security": false
+    },
     {
       "version": "0.7.4",
       "date": "2026-11-07",
