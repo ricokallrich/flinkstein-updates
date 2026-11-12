@@ -2,16 +2,28 @@
   "schema": 1,
   "channel": "stable",
   "latest": {
-    "version": "0.7.5",
-    "date": "2026-11-11",
+    "version": "0.7.6",
+    "date": "2026-11-12",
     "notes": [
-      "Wartungsmodus und „Bald online“: Unter Einstellungen → Wartungsmodus lässt sich die Website für Besucher ausblenden. Sie sehen dann eine gestaltete Seite im Design der Website, auf Wunsch mit Countdown oder voraussichtlichem Ende und Kontakt-Knöpfen. Angemeldete sehen weiter die echte Website.",
-      "Suchmaschinen erfahren im Wartungsmodus, dass die Website nur vorübergehend nicht erreichbar ist. Bestehende Einträge bleiben so erhalten.",
-      "Für den Umzug bestehender Websites: Weiterleitungen gibt es jetzt auch für alte Adressen mit der Endung .php (z. B. /kontakt.php → /kontakt)."
+      "Im Verwaltungsbereich steht jetzt neben dem Flinkstein-Logo das Logo Ihrer Website (oder ihr Name), auch auf der Anmeldeseite, im Editor und im Browser-Tab. So ist immer klar, welche Website Sie gerade bearbeiten.",
+      "Testumgebungen tragen im Verwaltungsbereich eine gut sichtbare Plakette „Testumgebung“, damit sie nicht mit der echten Website verwechselt werden.",
+      "Der Wartungsmodus funktioniert jetzt auch bei Websites, die als fertige Dateien auf einem eigenen Webspace liegen.",
+      "Auf dem Handy steht das Hauptmenü des Verwaltungsbereichs in einer eigenen Zeile und ist damit vollständig sichtbar."
     ],
     "security": false
   },
   "releases": [
+    {
+      "version": "0.7.6",
+      "date": "2026-11-12",
+      "notes": [
+        "Im Verwaltungsbereich steht jetzt neben dem Flinkstein-Logo das Logo Ihrer Website (oder ihr Name), auch auf der Anmeldeseite, im Editor und im Browser-Tab. So ist immer klar, welche Website Sie gerade bearbeiten.",
+        "Testumgebungen tragen im Verwaltungsbereich eine gut sichtbare Plakette „Testumgebung“, damit sie nicht mit der echten Website verwechselt werden.",
+        "Der Wartungsmodus funktioniert jetzt auch bei Websites, die als fertige Dateien auf einem eigenen Webspace liegen.",
+        "Auf dem Handy steht das Hauptmenü des Verwaltungsbereichs in einer eigenen Zeile und ist damit vollständig sichtbar."
+      ],
+      "security": false
+    },
     {
       "version": "0.7.5",
       "date": "2026-11-11",
