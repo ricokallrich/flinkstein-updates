@@ -2,17 +2,28 @@
   "schema": 1,
   "channel": "stable",
   "latest": {
-    "version": "0.7.6",
-    "date": "2026-11-12",
+    "version": "0.7.7",
+    "date": "2026-11-17",
     "notes": [
-      "Im Verwaltungsbereich steht jetzt neben dem Flinkstein-Logo das Logo Ihrer Website (oder ihr Name), auch auf der Anmeldeseite, im Editor und im Browser-Tab. So ist immer klar, welche Website Sie gerade bearbeiten.",
-      "Testumgebungen tragen im Verwaltungsbereich eine gut sichtbare Plakette „Testumgebung“, damit sie nicht mit der echten Website verwechselt werden.",
-      "Der Wartungsmodus funktioniert jetzt auch bei Websites, die als fertige Dateien auf einem eigenen Webspace liegen.",
-      "Auf dem Handy steht das Hauptmenü des Verwaltungsbereichs in einer eigenen Zeile und ist damit vollständig sichtbar."
+      "Sicherheitsupdate der technischen Grundlage (Astro): behebt zwei Schwachstellen, eine bei der Auslieferung von Bildern und eine bei der Darstellung von Seiten.",
+      "Neue und geänderte Seiten können nach dem Veröffentlichen automatisch an Suchmaschinen wie Bing gemeldet werden (IndexNow), damit sie schneller in den Suchergebnissen auftauchen. Wir schalten das für Ihre Website ein. Google nutzt dieses Verfahren nicht.",
+      "Websites, die als fertige Dateien auf einem eigenen Webspace liegen: Die Adresse /admin führt jetzt direkt zur Anmeldung im Verwaltungsbereich.",
+      "Einladungen, solange der E-Mail-Versand noch im Testbetrieb läuft: „Benutzer & Rollen“ zeigt den Einladungslink zum Weitergeben an und meldet nicht mehr, die E-Mail sei verschickt worden."
     ],
-    "security": false
+    "security": true
   },
   "releases": [
+    {
+      "version": "0.7.7",
+      "date": "2026-11-17",
+      "notes": [
+        "Sicherheitsupdate der technischen Grundlage (Astro): behebt zwei Schwachstellen, eine bei der Auslieferung von Bildern und eine bei der Darstellung von Seiten.",
+        "Neue und geänderte Seiten können nach dem Veröffentlichen automatisch an Suchmaschinen wie Bing gemeldet werden (IndexNow), damit sie schneller in den Suchergebnissen auftauchen. Wir schalten das für Ihre Website ein. Google nutzt dieses Verfahren nicht.",
+        "Websites, die als fertige Dateien auf einem eigenen Webspace liegen: Die Adresse /admin führt jetzt direkt zur Anmeldung im Verwaltungsbereich.",
+        "Einladungen, solange der E-Mail-Versand noch im Testbetrieb läuft: „Benutzer & Rollen“ zeigt den Einladungslink zum Weitergeben an und meldet nicht mehr, die E-Mail sei verschickt worden."
+      ],
+      "security": true
+    },
     {
       "version": "0.7.6",
       "date": "2026-11-12",
